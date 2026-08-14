@@ -1,0 +1,24 @@
+import { Outlet } from "react-router-dom";
+import MentorSidebar from "../components/MentorSidebar";
+import Footer from "../components/Footer";
+
+export default function MentorLayout() {
+    return (
+        <div className="min-h-screen bg-gray-50 flex flex-col">
+        <div className="flex flex-1">
+            {/* Sidebar */}
+            <MentorSidebar />
+
+            {/* Content area */}
+            <div className="flex-1 min-w-0 flex flex-col">
+            <main className="flex-1">
+                <Outlet />
+            </main>
+
+            {/* Footer */}
+            <Footer />
+            </div>
+        </div>
+        </div>
+    );
+}

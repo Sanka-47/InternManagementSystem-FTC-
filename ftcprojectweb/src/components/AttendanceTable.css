@@ -1,0 +1,61 @@
+/* Custom styles for react-datepicker to match the dark theme */
+
+.date-picker-calendar {
+  font-family: Arial, sans-serif;
+  background-color: #3b3b3e !important;
+  border: 1px solid #4a4b52 !important;
+  border-radius: 0.75rem !important; /* Tailwind rounded-xl */
+}
+
+.react-datepicker__header {
+  background-color: #3b3b3e !important;
+  border-bottom: 1px solid #4a4b52 !important;
+  padding-top: 10px;
+}
+
+.react-datepicker__header__dropdown {
+  display: none !important; /* Hide month/year dropdowns if you don't need them */
+}
+
+.react-datepicker__current-month {
+  color: white !important;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day {
+  color: white !important;
+  margin: 0.5rem;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--in-range {
+  background-color: #1f579c !important; /* A shade of blue to match the theme */
+  border-radius: 9999px !important; /* Tailwind rounded-full */
+}
+
+.react-datepicker__day:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-radius: 9999px !important;
+}
+
+/* Style for the start and end of the date range */
+.react-datepicker__day--selecting-range-start,
+.react-datepicker__day--selecting-range-end {
+  background-color: #1a4e8d !important;
+}
+
+/* Prev/Next buttons */
+.react-datepicker__navigation--previous,
+.react-datepicker__navigation--next {
+  top: 10px !important;
+}
+
+.react-datepicker__navigation-icon::before {
+  border-color: white !important;
+}
+
+/* Hide the default input field provided by the component */
+.react-datepicker__input-container > input {
+  display: none;
+}
