@@ -51,21 +51,7 @@ ftcprojectweb/
 ├── package.json
 ```
 
-## 📸 Screenshots
-
-## 🤝 Contributing
-To contribute to the project, please follow these steps:
-1. Fork the repository.
-2. Create a new branch.
-3. Make changes and commit them.
-4. Open a pull request.
 
 ## 📝 License
 The project is licensed under [License Name].
 
-## 📬 Contact
-For any questions or concerns, please contact [Your Name] at [Your Email].
-
-## 💖 Thanks Message
-This project is made possible by the contributions of many individuals. We appreciate your support and feedback.
-This is written by [readme.ai](https://readme-generator-phi.vercel.app/)
